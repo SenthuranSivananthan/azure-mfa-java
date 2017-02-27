@@ -11,7 +11,7 @@ import net.phonefactor.pfsdk.PFException;
 import net.phonefactor.pfsdk.SmsInfo;
 import net.phonefactor.pfsdk.TimeoutException;
 
-public class ExampleSMS {
+public final class ExampleSMS {
 	static public void main(String[] args) throws Exception {
 		String mfaConfigurationFolder = System.getenv("MFA_CONFIGURATION_FOLDER");
 		String mfaCertificatePassword = System.getenv("MFA_CERTIFICATE_PASSWORD");
